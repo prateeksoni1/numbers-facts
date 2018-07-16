@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
                         searchBtn.isEnabled = true
                     } else {
                         progressBar.visibility = View.INVISIBLE
+                        searchBtn.isEnabled = true
                         Toast.makeText(this, "Nothing found for this number.", Toast.LENGTH_SHORT).show()
                     }
 
